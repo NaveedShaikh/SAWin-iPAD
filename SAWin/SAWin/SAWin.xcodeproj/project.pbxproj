@@ -13,6 +13,10 @@
 		0B2E926B1F33325000C0D4B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E92691F33325000C0D4B2 /* Main.storyboard */; };
 		0B2E926D1F33325100C0D4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E926C1F33325100C0D4B2 /* Assets.xcassets */; };
 		0B2E92701F33325100C0D4B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E926E1F33325100C0D4B2 /* LaunchScreen.storyboard */; };
+		0B2E92791F333A7800C0D4B2 /* plumber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E92781F333A7800C0D4B2 /* plumber.jpg */; };
+		0B2E927B1F333E8900C0D4B2 /* sawinlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E927A1F333E8900C0D4B2 /* sawinlogo.png */; };
+		0B2E927D1F33462A00C0D4B2 /* username.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E927C1F33462A00C0D4B2 /* username.png */; };
+		0B2E927F1F334FE100C0D4B2 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E927E1F334FE100C0D4B2 /* password.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		0B2E926C1F33325100C0D4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2E926F1F33325100C0D4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2E92711F33325100C0D4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2E92781F333A7800C0D4B2 /* plumber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plumber.jpg; sourceTree = "<group>"; };
+		0B2E927A1F333E8900C0D4B2 /* sawinlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sawinlogo.png; sourceTree = "<group>"; };
+		0B2E927C1F33462A00C0D4B2 /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
+		0B2E927E1F334FE100C0D4B2 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		0B2E925F1F33325000C0D4B2 /* SAWin */ = {
 			isa = PBXGroup;
 			children = (
+				0B2E92771F333A6000C0D4B2 /* Images */,
 				0B2E92631F33325000C0D4B2 /* AppDelegate.h */,
 				0B2E92641F33325000C0D4B2 /* AppDelegate.m */,
 				0B2E92661F33325000C0D4B2 /* ViewController.h */,
@@ -77,6 +86,17 @@
 				0B2E92611F33325000C0D4B2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B2E92771F333A6000C0D4B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E927E1F334FE100C0D4B2 /* password.png */,
+				0B2E927C1F33462A00C0D4B2 /* username.png */,
+				0B2E927A1F333E8900C0D4B2 /* sawinlogo.png */,
+				0B2E92781F333A7800C0D4B2 /* plumber.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2E927F1F334FE100C0D4B2 /* password.png in Resources */,
+				0B2E927B1F333E8900C0D4B2 /* sawinlogo.png in Resources */,
 				0B2E92701F33325100C0D4B2 /* LaunchScreen.storyboard in Resources */,
+				0B2E92791F333A7800C0D4B2 /* plumber.jpg in Resources */,
+				0B2E927D1F33462A00C0D4B2 /* username.png in Resources */,
 				0B2E926D1F33325100C0D4B2 /* Assets.xcassets in Resources */,
 				0B2E926B1F33325000C0D4B2 /* Main.storyboard in Resources */,
 			);
