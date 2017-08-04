@@ -81,12 +81,7 @@
 				0B2E92641F33325000C0D4B2 /* AppDelegate.m */,
 				0B2E92661F33325000C0D4B2 /* ViewController.h */,
 				0B2E92671F33325000C0D4B2 /* ViewController.m */,
-				0B2E92691F33325000C0D4B2 /* Main.storyboard */,
-				3503DDAB1F34503D005BC857 /* Menu.storyboard */,
-				3503DDAD1F345057005BC857 /* TechCalls.storyboard */,
-				3503DDAF1F345066005BC857 /* Inventory.storyboard */,
-				3503DDB11F345076005BC857 /* Timecard.storyboard */,
-				3503DDB31F345976005BC857 /* ServiceMaster.storyboard */,
+				3503DDB51F34625A005BC857 /* StoryBoards_iPad */,
 				0B2E926C1F33325100C0D4B2 /* Assets.xcassets */,
 				0B2E926E1F33325100C0D4B2 /* LaunchScreen.storyboard */,
 				0B2E92711F33325100C0D4B2 /* Info.plist */,
@@ -112,6 +107,19 @@
 				0B2E92781F333A7800C0D4B2 /* plumber.jpg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		3503DDB51F34625A005BC857 /* StoryBoards_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E92691F33325000C0D4B2 /* Main.storyboard */,
+				3503DDAB1F34503D005BC857 /* Menu.storyboard */,
+				3503DDAD1F345057005BC857 /* TechCalls.storyboard */,
+				3503DDAF1F345066005BC857 /* Inventory.storyboard */,
+				3503DDB11F345076005BC857 /* Timecard.storyboard */,
+				3503DDB31F345976005BC857 /* ServiceMaster.storyboard */,
+			);
+			name = StoryBoards_iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
