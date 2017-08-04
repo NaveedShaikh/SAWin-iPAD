@@ -38,10 +38,10 @@
 		0B2E927A1F333E8900C0D4B2 /* sawinlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sawinlogo.png; sourceTree = "<group>"; };
 		0B2E927C1F33462A00C0D4B2 /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
 		0B2E927E1F334FE100C0D4B2 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
-		3503DDAB1F34503D005BC857 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
-		3503DDAD1F345057005BC857 /* TechCalls.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TechCalls.storyboard; sourceTree = "<group>"; };
-		3503DDAF1F345066005BC857 /* Inventory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inventory.storyboard; sourceTree = "<group>"; };
-		3503DDB11F345076005BC857 /* Timecard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timecard.storyboard; sourceTree = "<group>"; };
+		3503DDAB1F34503D005BC857 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Menu.storyboard; path = ../../Menu.storyboard; sourceTree = "<group>"; };
+		3503DDAD1F345057005BC857 /* TechCalls.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TechCalls.storyboard; path = ../../TechCalls.storyboard; sourceTree = "<group>"; };
+		3503DDAF1F345066005BC857 /* Inventory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Inventory.storyboard; path = ../../Inventory.storyboard; sourceTree = "<group>"; };
+		3503DDB11F345076005BC857 /* Timecard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Timecard.storyboard; path = ../../Timecard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +74,13 @@
 		0B2E925F1F33325000C0D4B2 /* SAWin */ = {
 			isa = PBXGroup;
 			children = (
+				0B2E92801F345A6300C0D4B2 /* Views */,
 				0B2E92771F333A6000C0D4B2 /* Images */,
 				0B2E92631F33325000C0D4B2 /* AppDelegate.h */,
 				0B2E92641F33325000C0D4B2 /* AppDelegate.m */,
 				0B2E92661F33325000C0D4B2 /* ViewController.h */,
 				0B2E92671F33325000C0D4B2 /* ViewController.m */,
-				0B2E92691F33325000C0D4B2 /* Main.storyboard */,
-				3503DDAB1F34503D005BC857 /* Menu.storyboard */,
-				3503DDAD1F345057005BC857 /* TechCalls.storyboard */,
-				3503DDAF1F345066005BC857 /* Inventory.storyboard */,
-				3503DDB11F345076005BC857 /* Timecard.storyboard */,
 				0B2E926C1F33325100C0D4B2 /* Assets.xcassets */,
-				0B2E926E1F33325100C0D4B2 /* LaunchScreen.storyboard */,
 				0B2E92711F33325100C0D4B2 /* Info.plist */,
 				0B2E92601F33325000C0D4B2 /* Supporting Files */,
 			);
@@ -109,6 +104,27 @@
 				0B2E92781F333A7800C0D4B2 /* plumber.jpg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		0B2E92801F345A6300C0D4B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E92811F345A8D00C0D4B2 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B2E92811F345A8D00C0D4B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E92691F33325000C0D4B2 /* Main.storyboard */,
+				3503DDAB1F34503D005BC857 /* Menu.storyboard */,
+				3503DDAD1F345057005BC857 /* TechCalls.storyboard */,
+				3503DDAF1F345066005BC857 /* Inventory.storyboard */,
+				3503DDB11F345076005BC857 /* Timecard.storyboard */,
+				0B2E926E1F33325100C0D4B2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +221,7 @@
 				0B2E926A1F33325000C0D4B2 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		0B2E926E1F33325100C0D4B2 /* LaunchScreen.storyboard */ = {
@@ -213,6 +230,7 @@
 				0B2E926F1F33325100C0D4B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
