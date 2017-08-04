@@ -1,71 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6lL-Qe-c6q">
-    <device id="ipad9_7" orientation="landscape">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes>
-        <!--Menu -->
-        <scene sceneID="OIp-wv-Ukz">
-            <objects>
-                <viewController title="Menu " id="85u-2D-ksU" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MUp-m0-4vx"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rql-uW-aA2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pSw-cU-UYi">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIz-1h-FFF">
-                                <rect key="frame" x="460.5" y="369" width="103" height="30"/>
-                                <state key="normal" title="Service Master"/>
-                                <connections>
-                                    <segue destination="TIX-LO-ij3" kind="show" id="Hi8-Cp-yI6"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="JIz-1h-FFF" firstAttribute="centerY" secondItem="pSw-cU-UYi" secondAttribute="centerY" id="XfN-dm-Cq2"/>
-                            <constraint firstItem="JIz-1h-FFF" firstAttribute="centerX" secondItem="pSw-cU-UYi" secondAttribute="centerX" id="w7v-Jn-4NV"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Menu" id="KSk-bM-BD2"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XCj-7g-llk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1089" y="780"/>
-        </scene>
-        <!--ServiceMaster-->
-        <scene sceneID="buj-nQ-eDT">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ServiceMaster" id="TIX-LO-ij3" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P3t-jB-AKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1545" y="699"/>
-        </scene>
-        <!--Menu-->
-        <scene sceneID="6Bh-zh-f4T">
-            <objects>
-                <navigationController title="Menu" automaticallyAdjustsScrollViewInsets="NO" id="6lL-Qe-c6q" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B18-8H-kBw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="85u-2D-ksU" kind="relationship" relationship="rootViewController" id="qBY-n1-pHd"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rvt-et-iqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="322" y="780"/>
-        </scene>
-    </scenes>
+    <scenes/>
 </document>
