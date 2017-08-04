@@ -77,10 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				0B2E92771F333A6000C0D4B2 /* Images */,
-				0B2E92631F33325000C0D4B2 /* AppDelegate.h */,
-				0B2E92641F33325000C0D4B2 /* AppDelegate.m */,
 				0B2E92661F33325000C0D4B2 /* ViewController.h */,
 				0B2E92671F33325000C0D4B2 /* ViewController.m */,
+				0B2E92631F33325000C0D4B2 /* AppDelegate.h */,
+				0B2E92641F33325000C0D4B2 /* AppDelegate.m */,
 				3503DDB51F34625A005BC857 /* StoryBoards_iPad */,
 				0B2E926C1F33325100C0D4B2 /* Assets.xcassets */,
 				0B2E926E1F33325100C0D4B2 /* LaunchScreen.storyboard */,
