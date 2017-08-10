@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Search SM</string>
+		<key>ComponentID</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>New Service Master</string>
+		<key>ComponentID</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Unassigned Calls</string>
+		<key>ComponentID</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Truck Inventory</string>
+		<key>ComponentID</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Most Used List</string>
+		<key>ComponentID</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Tech Timecard</string>
+		<key>ComponentID</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Inventory Used</string>
+		<key>ComponentID</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Training</string>
+		<key>ComponentID</key>
+		<integer>7</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Tech Work Day</string>
+		<key>ComponentID</key>
+		<integer>8</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>icons8-Star Filled-48.png</string>
+		<key>Caption</key>
+		<string>Sales App</string>
+		<key>ComponentID</key>
+		<integer>9</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string></string>
+		<key>Caption</key>
+		<string></string>
+		<key>ComponentID</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string></string>
+		<key>Caption</key>
+		<string></string>
+		<key>ComponentID</key>
+		<integer>11</integer>
+	</dict>
+</array>
+</plist>

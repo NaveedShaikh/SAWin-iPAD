@@ -22,6 +22,10 @@
 		3503DDB01F345066005BC857 /* Inventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3503DDAF1F345066005BC857 /* Inventory.storyboard */; };
 		3503DDB21F345076005BC857 /* Timecard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3503DDB11F345076005BC857 /* Timecard.storyboard */; };
 		3503DDB41F345976005BC857 /* ServiceMaster.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3503DDB31F345976005BC857 /* ServiceMaster.storyboard */; };
+		D845EC921F3B189D003160E8 /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D845EC911F3B189D003160E8 /* MenuCollectionViewCell.m */; };
+		D845EC941F3B2549003160E8 /* icons8-Star Filled-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D845EC931F3B2549003160E8 /* icons8-Star Filled-48.png */; };
+		D8D129A51F3860EF00A7B721 /* SAwinMenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D129A41F3860EF00A7B721 /* SAwinMenuItems.plist */; };
+		D8D129A91F38707300A7B721 /* SAwinMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D129A81F38707300A7B721 /* SAwinMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,12 @@
 		3503DDAF1F345066005BC857 /* Inventory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inventory.storyboard; sourceTree = "<group>"; };
 		3503DDB11F345076005BC857 /* Timecard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timecard.storyboard; sourceTree = "<group>"; };
 		3503DDB31F345976005BC857 /* ServiceMaster.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ServiceMaster.storyboard; sourceTree = "<group>"; };
+		D845EC901F3B189D003160E8 /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		D845EC911F3B189D003160E8 /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		D845EC931F3B2549003160E8 /* icons8-Star Filled-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Star Filled-48.png"; sourceTree = "<group>"; };
+		D8D129A41F3860EF00A7B721 /* SAwinMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SAwinMenuItems.plist; sourceTree = "<group>"; };
+		D8D129A71F38707300A7B721 /* SAwinMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAwinMenuViewController.h; sourceTree = "<group>"; };
+		D8D129A81F38707300A7B721 /* SAwinMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAwinMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2E92771F333A6000C0D4B2 /* Images */,
-				0B2E92661F33325000C0D4B2 /* ViewController.h */,
-				0B2E92671F33325000C0D4B2 /* ViewController.m */,
+				D8D129A61F38703A00A7B721 /* ViewController */,
 				0B2E92631F33325000C0D4B2 /* AppDelegate.h */,
 				0B2E92641F33325000C0D4B2 /* AppDelegate.m */,
 				3503DDB51F34625A005BC857 /* StoryBoards_iPad */,
@@ -94,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2E92611F33325000C0D4B2 /* main.m */,
+				D8D129A41F3860EF00A7B721 /* SAwinMenuItems.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,6 +111,7 @@
 		0B2E92771F333A6000C0D4B2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D845EC931F3B2549003160E8 /* icons8-Star Filled-48.png */,
 				0B2E927E1F334FE100C0D4B2 /* password.png */,
 				0B2E927C1F33462A00C0D4B2 /* username.png */,
 				0B2E927A1F333E8900C0D4B2 /* sawinlogo.png */,
@@ -120,6 +131,19 @@
 				3503DDB31F345976005BC857 /* ServiceMaster.storyboard */,
 			);
 			name = StoryBoards_iPad;
+			sourceTree = "<group>";
+		};
+		D8D129A61F38703A00A7B721 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E92661F33325000C0D4B2 /* ViewController.h */,
+				0B2E92671F33325000C0D4B2 /* ViewController.m */,
+				D8D129A71F38707300A7B721 /* SAwinMenuViewController.h */,
+				D8D129A81F38707300A7B721 /* SAwinMenuViewController.m */,
+				D845EC901F3B189D003160E8 /* MenuCollectionViewCell.h */,
+				D845EC911F3B189D003160E8 /* MenuCollectionViewCell.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +177,7 @@
 				TargetAttributes = {
 					0B2E925C1F33325000C0D4B2 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = AR3SZ3CYS4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -180,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D845EC941F3B2549003160E8 /* icons8-Star Filled-48.png in Resources */,
+				D8D129A51F3860EF00A7B721 /* SAwinMenuItems.plist in Resources */,
 				3503DDB41F345976005BC857 /* ServiceMaster.storyboard in Resources */,
 				3503DDAE1F345057005BC857 /* TechCalls.storyboard in Resources */,
 				0B2E927F1F334FE100C0D4B2 /* password.png in Resources */,
@@ -202,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D845EC921F3B189D003160E8 /* MenuCollectionViewCell.m in Sources */,
 				0B2E92681F33325000C0D4B2 /* ViewController.m in Sources */,
 				0B2E92651F33325000C0D4B2 /* AppDelegate.m in Sources */,
+				D8D129A91F38707300A7B721 /* SAwinMenuViewController.m in Sources */,
 				0B2E92621F33325000C0D4B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AR3SZ3CYS4;
 				INFOPLIST_FILE = SAWin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -338,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AR3SZ3CYS4;
 				INFOPLIST_FILE = SAWin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
